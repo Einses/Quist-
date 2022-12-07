@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Quist </title>
+<link rel="stylesheet" type="text/css" href="Quist/quistStyle.css" />   
+</head>
+<body>
+    <div id="bg">
+        <div id="headerli">
+            <img src="Pictures/QUIST/CROWNN.png">
+            <h1>Q u i s t</h1>
+            <p>a quiz with a twist</p>
+
+        </div>
+        <div id="footer">
+            <p>tap anywhere</p>
+        </div>
+    </body>
+</html>
