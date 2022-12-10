@@ -1,0 +1,128 @@
+h1 {
+    font-family: "san-serif", "century gothic";
+    font-size: 75px;
+    padding-top: 2px;
+    padding-bottom: 0px;
+    text-align: center;
+    margin: -5px;
+  }
+  p {
+      font-family: "san-serif", "century gothic";
+      color: black;
+      padding-top: 1px;
+      text-align: center;
+      text-align: justified;
+      line-height: 0px;
+    }
+  
+  .container {
+    height: 300px;
+    position: relative; 
+  }
+    
+  .AutoAlign {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
+  button {
+    font-family: "san-serif", "century gothic";
+    font-size: 20px;
+    border: none;
+    color: #e17d0b;
+    background-color: rgba(255,255,255,0);
+
+  }
+  
+  button:hover {
+    font-family: "san-serif", "century gothic";
+    border: none;
+    color: rgba(56,87,34,1);
+    background-color: rgba(255,255,255,0);
+  }
+  
+  body {
+    background-image: url(http://drive.google.com/uc?export=view&id=1TFw2IRavrihZ0AsOIczldpkxpAJKTMOj);
+    background-color: rgb(255,242,204);
+  
+  }
+  
+  div.bg {
+    background-size: 200% auto;
+    background-size: 3em 25%;
+    background-size: auto 6px;
+    background-size: auto auto;
+    margin: -5px;
+  }
+  
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    width: 10%;
+  }
+
+  .start1{
+    border-width:3px;
+    border-style:solid;
+    border-color:#90EE90; 
+    padding: 1em; 
+    text-align: center; 
+    width: 30%; 
+    border-radius: 15px; 
+    background-color: #90EE90;
+  }
+
+  .start2{
+    border-width:3px; 
+    border-style:solid; 
+    border-color:#FFA500; 
+    padding: 1em; 
+    text-align: center; 
+    width: 30%; 
+    border-radius: 15px; 
+    background-color: #FFA500
+  }
+  .mechanics1 {
+    font-family: "san-serif", "century gothic";
+    font-size: 45px;
+    text-align: center;
+  }
+
+  .mechanics2 {
+    font-family: "san-serif", "century gothic";
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+
+  .mechanics3{
+    border-width:5px; 
+    border-style:solid; 
+    border-color:#000000;
+    padding: 2em; 
+    width: 95%; 
+    border-radius: 15px; 
+    background-color: #023020;
+  }
+
+  .mechanics4{
+    font-family: "san-serif", "century gothic";
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    border-width:3px; 
+    border-style:solid; 
+    border-color:#13de13; 
+    padding: 1em; 
+    width: 30%; 
+    border-radius: 15px; 
+    background-color:#13de13;
+    margin-left: 510px;
+  }
