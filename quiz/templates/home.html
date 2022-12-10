@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<p style="color:red"> </p>
+<head>
+    {% load static %}
+        <link rel="stylesheet" href="{% static "static/style.css" %}">
+<title>QUIST </title>
+{% comment %} <link rel="stylesheet" type="text/css" href="DesignFrontend.css" />    {% endcomment %}
+</head>
+<body>
+    <img src ="static/images/bgrshapes.png"> 
+    <div id="bg">
+        <div id="headerli">
+            
+            <h1>
+                Q U I S T
+            </h1>
+
+            <p>
+                A quiz with a twist
+            </p>
+
+        </div>
+
+        <div class="container">
+            <div class = "AutoAlign">
+                <button class="selected"><B><a style ="color:#FFA500; text-decoration: none" href="/quiz/gameloading">Click here to start</a></B></button>
+                <!--<button>Click here to start</button>-->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
