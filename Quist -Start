@@ -27,8 +27,8 @@ h3{
             <br>
             <br>
             <br>
-            <h3 style="border-width:3px; border-style:solid; border-color:#90EE90; padding: 1em; text-align: center; width: 30%; border-radius: 15px; background-color: #90EE90"><font face="century gothic">Start Quiz</font></h3>
-            <h3 style="border-width:3px; border-style:solid; border-color:#FFA500; padding: 1em; text-align: center; width: 30%; border-radius: 15px; background-color: #FFA500"><font face="century gothic">Exit</font></h3>
+            <h3 class = start1><font face="century gothic"><a style ="color:#000000; text-decoration: none" href="mechanics.html">Start Quiz</a></font></h3>
+            <h3 class = start2><font face="century gothic"><a style ="color:#000000; text-decoration: none" href="main.html">Exit</a></font></h3>
 
         </div>
     </div>
