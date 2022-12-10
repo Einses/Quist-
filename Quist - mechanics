@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<p style="color:red"> </p>
+
+<head>
+<title>QUIST </title>
+<link rel="stylesheet" type="text/css" href="DesignFrontend.css" />   
+</head>
+
+<style>
+    .image1{
+        margin-top: 10px;
+    }
+    
+    h1{
+        font-size: 30px;
+    }
+
+    p{
+        font-size: 10px;
+    }
+</style>
+
+<body>
+    <img src ="http://drive.google.com/uc?export=view&id=1r1jIVX2TBkYFBVjub_U0PSFgyr12oneL" class = "image1" alt=""/> 
+    <div id="bg">
+        <div id="headerli">
+            <h1>Q U I S T</h1>
+            <p>A quiz with a twist</p>
+            <h2 class = mechanics1>Game Mechanics</h2>
+            <ol class = mechanics3>
+                <li class = mechanics2>Before beginning, the player must indicate his name, age, and current grade. After that, the game commences.</li>
+                <br>
+                <li class = mechanics2>The player is only allowed to choose one answer to each question. Be sure to select the correct one.</li>
+                <br>
+                <li class = mechanics2>The player is given three power-ups at the beginning of the quiz. Only one power-up is allowed in each question.</li>
+                <br>
+                <li class = mechanics2>The participant has three hearts, indicating the lives of the player. </li>
+                <br>
+                <li class = mechanics2>Once an incorrect answer is selected, the player loses one heart. The game ends if there are no remaining hearts.</li>
+                <br>
+                <li class = mechanics2>Once finished, results are displayed along with the scoreboard.</li>
+            </ol>
+            <br>
+            <h3 class = mechanics4>START QUIZ</h3>
+        </div>
+    </div>
+</body>
+</html>
