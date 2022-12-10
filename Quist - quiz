@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<p style="color:red"> </p>
+
+<head>
+<title>QUIST </title>
+<link rel="stylesheet" type="text/css" href="DesignFrontend.css" />   
+</head>
+
+<style>
+    .image1{
+        margin-top: 10px;
+    }
+    
+    h1{
+        font-size: 30px;
+    }
+
+    p{
+        font-size: 10px;
+    }
+
+    .circle1 {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-color: #FFA500;
+    border-radius: 50%;
+    border-color:white;
+    margin-left: 1340px
+    }
+
+    .circle2 {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(75, 49, 1);
+    border-radius: 50%;
+    border-color:white;
+    }
+
+    .circle3 {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-color: #023020;
+    border-radius: 50%;
+    border-color:white;
+    }
+
+</style>
+</style>
+
+<body>
+    <div id="bg">
+        <div id="headerli">
+            
+            <h1>
+                Q U I S T
+            </h1>
+
+            <p>
+                A quiz with a twist
+            </p>
+            <br>
+            <br>
+            <div class="circle1"></div>
+            <div class="circle2"></div>
+            <div class="circle3"></div>
+        </div>
+    </div>
+</body>
+</html>
