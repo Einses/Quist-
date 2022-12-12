@@ -26,8 +26,8 @@
     width: 50px;
     background-color: #FFA500;
     border-radius: 50%;
-    border-color:white;
-    margin-left: 1340px
+    border: 5px solid white;
+    margin-left: 1300px
     }
 
     .circle2 {
@@ -36,6 +36,7 @@
     width: 50px;
     background-color: rgb(75, 49, 1);
     border-radius: 50%;
+    border: 5px solid white;
     border-color:white;
     }
 
@@ -45,29 +46,62 @@
     width: 50px;
     background-color: #023020;
     border-radius: 50%;
+    border: 5px solid white;
     border-color:white;
     }
 
+    .quiz2{
+        margin-right: 30px;
+    }
 </style>
 </style>
 
 <body>
     <div id="bg">
         <div id="headerli">
-            
-            <h1>
-                Q U I S T
-            </h1>
-
-            <p>
-                A quiz with a twist
-            </p>
+            <h1 class ="title1">Q U I S T</h1>
+            <p class="title2"> A quiz with a twist</p>
             <br>
             <br>
             <div class="circle1"></div>
             <div class="circle2"></div>
             <div class="circle3"></div>
+            <div class="card">
+                <div class="front">
+                    <ol class= "quiz1">
+                        <h3 class ="quiz2"><font face="century gothic"><a style ="color:white">Question 1</a></font></h3>
+                        <h3 class ="question"><font face="century gothic"><a style ="color:white">She ___ your new teacher.</a></font></h3>
+                        <br>
+                        <br>
+                        <br>
+                        <input type="checkbox" id="answer1a">
+                        <label for="answer1a"><h2 class="answer1"><font face="century gothic"><a style ="color:#000000">A. is</a></font></h2></label>
+                        <input type="checkbox" id="answer2a">
+                        <label for="answer2a"><h2 class="answer2"><font face="century gothic"><a style ="color:#000000">B. are</a></font></h2></label>
+                        <input type="checkbox" id="answer3a">
+                        <label for="answer3a"><h2 class="answer3"><font face="century gothic"><a style ="color:#000000">C. am</a></font></h2></label>
+                        <br>
+                        <br>
+                        <br>
+                    </ol>
+                </div>
+                <div class="back">
+                    <h3 class ="quiz2"><font face="century gothic"><a style ="color:white">Answer</a></font></h3>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <input type="checkbox">
+                    <h3 class="answer1"><font face="century gothic"><a style ="color:#000000">Ako ang sagot</a></font></h3>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+            </div>
         </div>
     </div>
+
 </body>
 </html>
