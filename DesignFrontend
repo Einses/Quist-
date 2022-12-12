@@ -126,3 +126,97 @@ h1 {
     background-color:#13de13;
     margin-left: 510px;
   }
+
+  .quiz1{
+    text-align: center;
+    border-width:5px; 
+    border-style:solid; 
+    border-color:red;
+    padding: 2em; 
+    width: 25%; 
+    border-radius: 25px; 
+    background-color: Red;
+    margin-left: 525px;
+  }
+
+h3{
+    padding-left: 1px;
+    margin-left: 1px;
+    text-align: left;
+  }
+
+h3.question{
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .answer1{
+    border-width:3px;
+    border-style:solid;
+    border-color:white;
+    padding: 5px; 
+    text-align: center; 
+    width: 100%; 
+    border-radius: 15px; 
+    background-color: rgba(255,255,255,0.5);
+  }
+
+  .answer2{
+    border-width:3px;
+    border-style:solid;
+    border-color:white;
+    padding: 5px; 
+    text-align: center; 
+    width: 100%; 
+    border-radius: 15px; 
+    background-color: rgba(255,255,255,0.5);
+  }
+
+
+  .answer3{
+    border-width:3px;
+    border-style:solid;
+    border-color:white;
+    padding: 5px; 
+    text-align: center; 
+    width: 100%; 
+    border-radius: 15px; 
+    background-color: rgba(255,255,255,0.5);
+  }
+
+.card {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition: all 600ms;
+    transition: all 600ms;
+    z-index: 20;
+}
+  .card div {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+    border-radius: 2px;
+  }
+
+  .card .back {
+    background: rgb(9, 105, 36);
+    color:rgb(255, 255, 255);
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+  }
+
+  
+:checked + .card {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+}
+
+
+
+
+
