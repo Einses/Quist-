@@ -5,3 +5,6 @@ def frontend(request):
 
 def gameloading(request):
     return render(request, "gameloading.html")
+
+def gameend(request):
+    return render(request, "gameend.html")

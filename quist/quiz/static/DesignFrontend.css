@@ -6,6 +6,8 @@ h1 {
   text-align: center;
   margin: -5px;
 }
+
+
 p {
     font-family: "san-serif", "century gothic";
     color: black;
@@ -61,7 +63,7 @@ div,bg {
 
 img {
   display: block;
-  margin-left: auto;
+  margin-left: auto;align-self: start;
   margin-right: auto;
   margin-top: 150px;
   width: 10%;

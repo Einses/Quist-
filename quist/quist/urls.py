@@ -16,8 +16,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import include, path
 from quiz import views
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('quiz/' , include('quiz.urls'))
+    path('quiz/' , include('quiz.urls')),
+    path('', views.frontend, name= '')
 ]
+
+urlpatterns += staticfiles_urlpatterns("static")

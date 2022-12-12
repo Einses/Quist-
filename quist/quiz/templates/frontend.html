@@ -5,14 +5,15 @@
 <meta charset ="utf-8">
 <title> Q U I S T </title>
 {% load static %}
-<link rel="icon" href="{% static "QuistLogo.png"%}">
+<link rel="icon" href="{% static "Images/QuistLogo.png"%}">
 <link rel="stylesheet" type="text/css" href="{% static "DesignFrontend.css"%}" />   
 </head>
 
 <body>
     <div id="bg">
         <div id="rshape">
-            <img src="{{ QuistLogo.png }}" alt="{{ Logo }}" />
+            {% load static %} <img src="{% static "Images/QuistLogo.png" %}" alt= "Logo" />
+            
         </div>
         <div id="headerli">
             
@@ -28,7 +29,7 @@
 
         <div class="container">
             <div class = "AutoAlign">
-                <button class="selected"><B><a style ="color:#FFA500; text-decoration: none" href="gameloading">Click here to start</a></B></button>
+                <button class="selected"><B><a style ="color:#FFA500; text-decoration: none" href="/quiz/gameloading">Click here to start</a></B></button>
                 <!--<button>Click here to start</button>-->
             </div>
         </div>
