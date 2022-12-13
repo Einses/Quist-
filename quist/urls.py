@@ -14,8 +14,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import include,path
-
+from quiz import views
+from quiz.admin import QA_site
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('quiz/', include('quiz.urls')),
+    path('', views.index, name=''),
+    path('QA_admin/', QA_site.urls),
+    #path('gameloading/', include('gameloading.urls')),
 ]
+admin.site.site_header = "Quist Admin"
