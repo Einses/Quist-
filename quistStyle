@@ -1,0 +1,7 @@
+#bg{
+border-radius: 25px;
+background-color:bisque;
+}
+#header{
+    text-align: center;
+}
