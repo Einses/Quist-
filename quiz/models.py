@@ -14,11 +14,9 @@ class Question(models.Model):
 
 class Answer(models.Model):
     ans1 = models.CharField(max_length=200)
-    ans2 = models.CharField(max_length=200)
-    ans3 = models.CharField(max_length=200)
     correct = models.BooleanField(default=False)
     question = models.ForeignKey(Question, on_delete=models.CASCADE)
     created = models.DateTimeField(auto_now_add=True)
 
-    def __str__(self):
-        return f"question: {self.question.text}, answer: {self.text}, correct: {self.correct}"
+    #def __str__(self):
+        #return f"question: {self.question.text}, answer: {self.text}, correct: {self.correct}"
