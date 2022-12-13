@@ -3,7 +3,7 @@ from . import views
 
 urlpatterns = [
     # ex: /polls/
-    path('index', views.index, name='index'),
-   path('gameloading', views.gameloading, name='gameloading'),
-    path('home', views.home, name='home'),
+    path('frontend', views.frontend, name='frontend'),
+    path('gameloading', views.gameloading, name='gameloading'),
+    path('gameend', views.gameend, name='gameend'),
 ]

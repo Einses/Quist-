@@ -18,8 +18,8 @@ from quiz import views
 from quiz.admin import QA_site
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.index, name=''),
+    path('', views.frontend, name=''),
     path('QA_admin/', QA_site.urls),
-    #path('gameloading/', include('gameloading.urls')),
+    path('quiz/', include('quiz.urls')),
 ]
 admin.site.site_header = "Quist Admin"

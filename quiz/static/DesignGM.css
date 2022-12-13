@@ -1,0 +1,64 @@
+h4 {
+    font-family: "san-serif", "century gothic";
+    font-size: 40px;
+    padding-top: 2px;
+    padding-bottom: 0px;
+    text-align: center;
+    margin: -5px;
+  }
+  
+  p {
+      font-family: "san-serif", "century gothic";
+      color: black;
+      padding-top: 1px;
+      text-align: center;
+      text-align: justified;
+      line-height: 0px;
+    }
+    
+    body {
+        background-image: url(Images/bgrshapes.png);
+        background-color: rgb(255,242,204);
+    }     
+    
+    img {
+        display: block;
+        margin-left: auto;align-self: start;
+        margin-right: auto;
+        margin-top: 10%;
+        width: 3%;
+      }
+
+      .playagain {
+        margin-top: 30%;
+        position: relative; 
+      }
+    
+    .answerbox {
+        margin-top: 3%;
+        position: relative; 
+      }
+
+      button{
+        font-family: "san-serif", "century gothic";
+        display: block;
+        background-color: #ecbe19;
+        border-radius: 10px;
+        border-color: aliceblue;
+        color: rgb(255,242,204);
+        text-align: center;
+        font-size: 28px;
+        padding: 20px;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+    

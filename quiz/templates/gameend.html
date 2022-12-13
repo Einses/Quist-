@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset ="utf-8">
+<title> Q U I S T </title>
+{% load static %}
+<link rel="icon" href="{% static "Images/QuistLogo.png"%}">
+<link rel="stylesheet" type="text/css" href="{% static "DesignGM.css"%}" />   
+</head>
+
+<body>
+    <div id="bg">
+        <div id="rshape">
+            {% load static %} <img src="{% static "Images/QuistLogo.png" %}" alt= "Logo" />
+            
+        </div>
+        <div class="headerli">
+            
+            <h4>
+                Total Score
+            </h4>
+            <div class="playagain">
+                <button class="playagain"><B><a href="/quiz/gameload">PLAYAGAIN</a></B></button>
+
+            <div class="answerbox">
+                <button id="exit"><B><a href="frontend">SEE ANSWER</a></B></button>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
