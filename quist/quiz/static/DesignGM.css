@@ -1,0 +1,30 @@
+h4 {
+    font-family: "san-serif", "century gothic";
+    font-size: 40px;
+    padding-top: 2px;
+    padding-bottom: 0px;
+    text-align: center;
+    margin: -5px;
+  }
+  
+  p {
+      font-family: "san-serif", "century gothic";
+      color: black;
+      padding-top: 1px;
+      text-align: center;
+      text-align: justified;
+      line-height: 0px;
+    }
+    
+    body {
+        background-image: url(Images/bgrshapes.png);
+        background-color: rgb(255,242,204);
+    }     
+    
+    img {
+        display: block;
+        margin-left: auto;align-self: start;
+        margin-right: auto;
+        margin-top: 150px;
+        width: 3%;
+      }
