@@ -6,9 +6,9 @@ https://github.com/Einses/Quist-.git<br>
 <h3>Migrations</h3>
 <b>- To run migrations</b>
 <br>
-<b>-- python manage.py makemigrations</b>
+<b>-- py manage.py makemigrations</b>
 <br>
-<b>-- python manage.py migrate</b>
+<b>-- py manage.py migrate</b>
 
 <br>
 <b>- Type py manage.py runserver and hit enter</b>
