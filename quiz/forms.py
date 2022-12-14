@@ -1,12 +1,13 @@
+from django import forms
 from django.forms import ModelForm
-from .models import *
+from .models import Question
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.models import User
  
-class createuserform(UserCreationForm):
+class QuestionForm(forms.Form):
     class Meta:
-        model=User
-        fields=['username','password'] 
+        model = Question
+        fields = ('text')
  
 #class addQuestionform(ModelForm):
     #class Meta:
