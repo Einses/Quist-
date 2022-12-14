@@ -112,7 +112,7 @@ label {
     -webkit-transform: rotateY(180deg);
 }
 
-:active.card .back {
+.card .back {
   background: rgb(69, 159, 36);
   color: #FFF;
   -webkit-transform: rotateY(180deg);
