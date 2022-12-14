@@ -135,10 +135,17 @@ h3 {
   text-align: center;
   height: 100px;
 }
-button {
+
+input {
+  font-family:"san-serif", "century gothic" ;
   position: relative;
   background-color: #FFA500;
   border-radius: 5px;
   border-color: rgba(255,255,255,0);
   font-size: large;
+  cursor: pointer;
+}
+
+.btn:active {
+  color:bisque;
 }
