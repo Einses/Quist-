@@ -11,8 +11,7 @@ h1 {
       color: rgb(255, 255, 255);
       margin-top: 0px;
       text-align: center;
-      text-align: justified;
-      line-height: 0px;
+      margin-bottom: 0%;
     }
   
   img {
@@ -108,13 +107,21 @@ label {
         transform: rotateY(180deg);
     }
 
-input {
-    display: none;
-}
-
 :checked + .card {
     transform: rotateY(180deg);
     -webkit-transform: rotateY(180deg);
+}
+
+:active.card .back {
+  background: rgb(69, 159, 36);
+  color: #FFF;
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+form{
+  color: rgb(255, 255, 255);
+  font-family: "san-serif", "century gothic";
 }
 
 h2 { 
@@ -124,6 +131,10 @@ h2 {
   color:#FFF
 }
 
+h3 {
+  text-align: center;
+  height: 100px;
+}
 button {
   position: relative;
   background-color: #FFA500;

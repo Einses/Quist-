@@ -26,21 +26,21 @@
                 <div class="front">
                     {% load static %} <img src="{% static "images/New_logo.png" %}" alt= "Logo" />
                     <h2>What is the plural form of child?</h2>
-                    
-                        <button id="exit"><B><a href="frontend">a.childs</a></B></button>
-                        <!--<button>Exit</button>-->
-   
-                        <button id="exit"><B><a href="frontend">b. children</a></B></button>
-                        <!--<button>Exit</button>-->
+                    <form action="" method=POST>
+                        {% csrf_token %}
+                        <input type ="submit" value="a. Childs" class="btn btn-succes">
+                        <input type ="submit" value="b. Children" class="btn btn-succes">
+                        <input type ="submit" value="c. Childrens" class="btn btn-succes">
+                        <input type ="submit" value="submit" class="btn btn-succes">
 
-                        <button id="exit"><B><a href="frontend">C. childens</a></B></button>
-                        <!--<button>Exit</button>-->
+                    </form>
 
                 </div>
 
                 <div class="back">
                     <h1>Answer<h1>
                     <h3>Secret<h3>
+                    <button id="exit"><B><a href="QandA">next</a></B></button>
                     
                 </div>
             </div>
