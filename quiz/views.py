@@ -12,4 +12,15 @@ def gameend(request):
 def QandA(request):
     return render(request, "QandA.html")
     
+def quiz2(request):
+    return render(request, "quiz2.html")
+
+def quiz3(request):
+    return render(request, "quiz3.html")
+
+def quiz4(request):
+    return render(request, "quiz4.html")
+
+def quiz5(request):
+    return render(request, "quiz5.html")
     

@@ -8,7 +8,7 @@ h1 {
   p {
       font-family: "san-serif", "century gothic";
       font-size: x-small;
-      color: rgb(255, 255, 255);
+      color: rgba(255, 255, 255,0.5);
       margin-top: 0px;
       text-align: center;
       margin-bottom: 0%;
@@ -119,6 +119,10 @@ label {
   transform: rotateY(180deg);
 }
 
+:after + input{
+  display:none;
+}
+
 form{
   color: rgb(255, 255, 255);
   font-family: "san-serif", "century gothic";
@@ -146,6 +150,6 @@ input {
   cursor: pointer;
 }
 
-.btn:active {
+.success :active {
   color:bisque;
 }

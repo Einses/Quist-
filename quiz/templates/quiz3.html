@@ -23,27 +23,25 @@
 
                 <div class="front">
                     {% load static %} <img src="{% static "images/New_logo.png" %}" alt= "Logo" />
-                    <h2>What is the plural form of child?</h2>
+                    <h2>She ____ your teacher.</h2>
                     <form action="" method=POST>
                         {% csrf_token %}
-                        <input type ="submit" value="a. Childs" class="btn btn-check">
-                        <input type ="submit" value="b. Children" class="btn btn-check">
-                        <input type ="submit" value="c. Childrens" class="btn btn-check">
-
+                        <input type ="submit" value="a. is" class="btn btn-check">
+                        <input type ="submit" value="b. are" class="btn btn-check">
+                        <input type ="submit" value="c. am" class="btn btn-check">
                     </form>
                     
                     <form action="" method=POST>
                         {% csrf_token %}
                     <input type ="submit" value="submit" class="btn btn-succes">
                     </form>
-                    
 
                 </div>
 
                 <div class="back">
                     <h1>Answer<h1>
                     <h3>Secret<h3>
-                    <button id="exit"><B><a href="quiz2">next</a></B></button>
+                    <button id="exit"><B><a href="quiz4">next</a></B></button>
                     
                 </div>
             </div>
