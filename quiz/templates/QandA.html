@@ -1,0 +1,51 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset = "UTF-8">
+    <title> QUIST - Quiz</title>
+</head>
+<link rel="icon" href="{% static "images/QuistLogo.png"%}">
+<link rel="stylesheet" type="text/css" href="{% static "DesignQuiz.css"%}" />  
+
+
+<body>
+    <div id="bg">
+        <div id="headerli">
+            <div class="circle1"></div>
+            <div class="circle2"></div>
+            <div class="circle3"></div>
+        </div>
+
+        <label>
+            <input type="checkbox"  />
+            <div class="card">
+
+                <div class="front">
+                    {% load static %} <img src="{% static "images/New_logo.png" %}" alt= "Logo" />
+                    <h2>What is the plural form of child?</h2>
+                    
+                        <button id="exit"><B><a href="frontend">a.childs</a></B></button>
+                        <!--<button>Exit</button>-->
+   
+                        <button id="exit"><B><a href="frontend">b. children</a></B></button>
+                        <!--<button>Exit</button>-->
+
+                        <button id="exit"><B><a href="frontend">C. childens</a></B></button>
+                        <!--<button>Exit</button>-->
+
+                </div>
+
+                <div class="back">
+                    <h1>Answer<h1>
+                    <h3>Secret<h3>
+                    
+                </div>
+            </div>
+        </label>
+
+    </div>
+</body>
+</html>

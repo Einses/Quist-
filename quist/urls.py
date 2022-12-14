@@ -15,11 +15,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import include,path
 from quiz import views
-from quiz.admin import QA_site
+#from quiz.admin import QA_site
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.frontend, name=''),
-    path('QA_admin/', QA_site.urls),
+    #path('QA_admin/', QA_site.urls),
     path('quiz/', include('quiz.urls')),
 ]
 admin.site.site_header = "Quist Admin"

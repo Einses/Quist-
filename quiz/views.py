@@ -8,5 +8,8 @@ def gameloading(request):
 
 def gameend(request):
     return render(request, "gameend.html")
+
+def QandA(request):
+    return render(request, "QandA.html")
     
     
